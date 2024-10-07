@@ -401,6 +401,7 @@
         font-size: 3.8vw;
         font-weight: 600;
         font-family: "Roboto", sans-serif;
+        text-align: left;
     }
 
     .div-one2 p, .div-one3 p, .div-one4 p {
@@ -573,10 +574,12 @@ li {
 .section-second-main-div{
     width: 99%;
     display: grid;
-    grid-template-columns: repeat(3, 26.5%);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 37px;
     padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 120px;
 }
 .section-second-div{
     border-radius: 10%;
@@ -597,9 +600,13 @@ li {
     font-size: 4vw;
     margin-left: 10%;
 }
-.section-second-one p, h3{
+.section-second-one1 p{
     margin-left: 15px;
 }
+.section-second-one1 h3{
+    margin-left: 15px;
+}
+
 .section-second-container h3{
     font-size: 1.8vw;
     margin-bottom: 25px;
@@ -678,9 +685,12 @@ li {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 37px;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 120px;
 }
 .section-second-div p{
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     font-weight: 400;
 }
 .section-second-main-title{
@@ -689,15 +699,18 @@ li {
     font-size: 3.5vw;
     margin-left: 10%;
 }
-.section-second-one p, h3{
+.section-second-one1 p{
+    margin-left: 15px;
+}
+.section-second-one1 h3{
     margin-left: 15px;
 }
 .section-second-container h3{
-    font-size: 1.8vw;
+    font-size: 1.9vw;
     margin-bottom: 20px;
 }
 .section-second-container-two h3{
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     margin-bottom: 2px;
     margin-top: 3.5%;
     width: 20vw;
@@ -804,7 +817,10 @@ li {
     margin-left: 10%;
     font-size: 7.5vw;
 }
-.section-second-one p, h3{
+.section-second-one1 p{
+    margin-left: 15px;
+}
+.section-second-one1 h3{
     margin-left: 15px;
 }
 .section-second-container h3{
